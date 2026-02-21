@@ -1,7 +1,7 @@
 /*
 | ======================================================================================================================================
 | Name          : TicTakToe (Computer vs Player)
-| Author        : // itsphill_
+| Author        : Shahzad
 | Version       : 1.0-Beta
 | Description   : TicTocToe Game - Player VS Computer
 | Copyright     : No Copyright. You are allowed to re-use the code or parts of it!
@@ -195,7 +195,7 @@ int controllaVincita(char *p)
     if(vincitore){
         printf("\n-----------------------------------------------------------------\n");
         printf("CONGRATS, YOU WON!\n");
-        printf("Are you a god? Because you just beat an argorithm designed to never loose!\n");
+        printf("Are you a god? Because you just beat an argorithm designed to never lose!\n");
         printf("-----------------------------------------------------------------\n\n");
         return 1;
     }
@@ -216,8 +216,8 @@ int isFinita(char *p)
     if(check)
     {
         printf("\n-----------------------------------------------------------------\n");
-        printf("PAREGGIO!");
-        printf("Non male, sei riuscito a difenderti!\n");
+        printf("TIE!");
+        printf("Not too bad, you were able to defend yourself!\n");
         printf("\n-----------------------------------------------------------------\n");
         return 1;
     }
